@@ -1,4 +1,4 @@
-# Base-Stable-Coin-System
+# Base-Stable-Coin-Index-System
 
 ### Technical Paper:
 ### Video Demonstration:
