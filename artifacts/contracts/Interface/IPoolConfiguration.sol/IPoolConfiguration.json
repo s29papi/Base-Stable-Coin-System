@@ -1,0 +1,111 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IPoolConfiguration",
+  "sourceName": "contracts/Interface/IPoolConfiguration.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_totalBorrows",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_totalLiquidity",
+          "type": "uint256"
+        }
+      ],
+      "name": "calculateInterestRate",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "borrowInterestRate",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getBaseBorrowRate",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getCollateralPercent",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getLiquidationBonusPercent",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getOptimalUtilizationRate",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_totalBorrows",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_totalLiquidity",
+          "type": "uint256"
+        }
+      ],
+      "name": "getUtilizationRate",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "utilizationRate",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
